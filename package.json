@@ -1,0 +1,20 @@
+{
+  "name": "csci_651_assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type":"module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandallWang/CSCI_651_Assignment1.git"
+  },
+  "author": "Tianchi Wang & Haibin Xing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandallWang/CSCI_651_Assignment1/issues"
+  },
+  "homepage": "https://github.com/RandallWang/CSCI_651_Assignment1#readme"
+}
