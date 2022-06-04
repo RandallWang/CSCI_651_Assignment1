@@ -36,17 +36,17 @@ describe("LCP_Divide And Conquer Approach:", function() {
 // //LCS
 describe("LCS_Brute Force Approach:", function() {
     it ("run all test cases", function() {
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["abcde","ace"]),"ace");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["lmnopq","xyz"]),"");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["peacock","penguin"]),"pe");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["ttybace","bclknm"]),"bc");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["canada","vancouver"]),"an");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["book","table"]),"b");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["spptap","pxtxsap"]),"ptap");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["common","communicate"]),"commn");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["xyzxyz","axbyyzz"]),"xyyz");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["yellow","melon"]),"elo");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["csstxbst","astsbksty"]),"stbst");
-        assert.equal(LongestCommonSubsequence.bruteForceApproach(["example","analyze"]),"ale");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("abcde","ace"),"ace");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("lmnopq","xyz"),"");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("peacock","penguin"),"pe");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("ttybace","bclknm"),"bc");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("canada","vancouver"),"an");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("book","table"),"b");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("spptap","pxtxsap"),"ptap");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("common","communicate"),"commn");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("xyzxyz","axbyyzz"),"xyyz");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("yellow","melon"),"elo");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("csstxbst","astsbksty"),"stbst");
+        assert.equal(LongestCommonSubsequence.bruteForceApproach("example","analyze"),"ale");
     });
 });
