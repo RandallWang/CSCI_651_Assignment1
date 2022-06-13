@@ -40,8 +40,7 @@ export class LongestCommonPrefix {
             let result = "";
             for (let i = 0; i < str1.length; i++) {
                 let firstSubString = str1.substring(0, i + 1);
-                let secondSubString = str2.substring(0, i + 1);
-                if (firstSubString == secondSubString) {
+                if (str2.indexOf(firstSubString) == 0) {
                     result = firstSubString;
                 } else {
                     break;
