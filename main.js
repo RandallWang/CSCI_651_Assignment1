@@ -29,7 +29,9 @@ ExperimentalAnalysisForLCP();
 function ExperimentalAnalysisForLCP() {
     var durations1 = [];
     var durations2 = [];
+    //run the experiment for 10 times
     for (let time = 0; time < 10; time++) {
+        //experiment the performance for different input size
         for (let i = 1; i < 11; i++) {
             let testCases = generateRandomTestCases(i * 10);
     
